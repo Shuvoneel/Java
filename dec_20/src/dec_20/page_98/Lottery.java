@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Lottery {
 
     public static void main(String[] args) {
-        
+
         int lottery = (int) (Math.random() * 100);
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your lucky number in two digits:");
@@ -19,13 +19,13 @@ public class Lottery {
 
         System.out.println("Your Lucky number is: " + lottery);
         if (guess == lottery) {
-            System.out.println("Exacr Match: You won $10,000");
+            System.out.println("Wow, It's an an Exact Match !! You won $10,000");
         } else if (GD2 == LD1 && GD1 == LD2) {
-            System.out.println("Match all digits: You won $3,000");
+            System.out.println("Match all digits: You won $" + guess * 10);
         } else if (GD1 == LD1 || GD1 == LD2 || GD2 == LD1 || GD2 == LD2) {
-            System.out.println("Match one digits: You won $1,000");
+            System.out.println("Match one digits: You won $" + guess * 5);
         } else {
-            System.out.println("Sorry, No Match !");
+            System.out.println("Sorry, No Match: Your penalty is $" + guess * 10);
         }
     }
 
