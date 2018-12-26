@@ -6,8 +6,16 @@ public class IsPrime {
 
     public static void main(String[] args) {
         System.out.println(isPrime(7));
+        checkPrime(1, 10);
+    }
 
-        System.out.println(checkPrime(1, 10));
+    public static void checkPrime(int n1, int n2) {
+        while (n1 <= n2) {
+            if (isPrime(n1)) {
+                System.out.println("is " + n1 + " prime?" + isPrime(n1));
+            }
+            n1++;
+        }
     }
 
     public static boolean isPrime(int num) {
@@ -18,13 +26,4 @@ public class IsPrime {
         return prime;
     }
 
-    public static boolean checkPrime(int n1, int n2) {
-        while (n1 <= n2) {
-            if (isPrime(n1)) {
-                System.out.println(isPrime(n1));
-            }
-            n1++;
-        }
-        return isPrime(n1);
-    }
 }
