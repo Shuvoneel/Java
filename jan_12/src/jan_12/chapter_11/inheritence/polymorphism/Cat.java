@@ -1,0 +1,15 @@
+package jan_12.chapter_11.inheritence.polymorphism;
+
+public class Cat extends Animal {
+
+    @Override
+    public void sound() {
+        System.out.println("Meow");
+    }
+
+    public static void main(String[] args) {
+        Animal obj = new Cat();
+        obj.sound();
+    }
+
+}
