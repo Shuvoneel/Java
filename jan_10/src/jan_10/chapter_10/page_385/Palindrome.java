@@ -2,7 +2,7 @@ package jan_10.chapter_10.page_385;
 
 import java.util.Scanner;
 
-public class Palindrom {
+public class Palindrome {
 
     static String[] s = {"Hello", "mom", "madam"};
 
