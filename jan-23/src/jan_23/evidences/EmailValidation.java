@@ -19,4 +19,5 @@ public class EmailValidation {
             System.out.println("Email is invalid");
         }
     }
+    
 }
