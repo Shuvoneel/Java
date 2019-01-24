@@ -5,6 +5,11 @@ import java.util.Arrays;
 public class TwoDArraySort {
 
     public static void main(String[] args) {
+        System.out.println("Two Dimensional Array sorting: ");
+        defaultSort();
+    }
+    
+    public static void defaultSort(){
         int[][] num = {
             {5, 9, 7, 3, 11},
             {4, 2, 6, 8, 10},

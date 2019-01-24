@@ -4,6 +4,10 @@ import java.math.BigInteger;
 
 public class IsPrime {
 
+    public static void main(String[] args) {
+        checkPrime(1, 10);
+    }
+
     public static void checkPrime(int n1, int n2) {
         while (n1 <= n2) {
             if (isPrime(n1)) {

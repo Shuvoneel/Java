@@ -1,6 +1,5 @@
 package jan_23.evidences;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 public class SentinelValue {
@@ -8,6 +7,9 @@ public class SentinelValue {
     static int n;
     static int sum;
 
+    public static void main(String[] args) {
+        sentinel();
+    }
     public static void sentinel() {
         Scanner input = new Scanner(System.in);
 
