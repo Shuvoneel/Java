@@ -6,7 +6,7 @@ public class MethodOverloading {
         Overload obj = new Overload();
         double result;
 
-        System.out.println("Compile Polymorphism:");
+        System.out.println("Compile-time Polymorphism:");
         obj.demo(10);
         obj.demo(10, 5);
         result = obj.demo(5.5);
