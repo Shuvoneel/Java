@@ -1,4 +1,4 @@
-package algorithm.chapter_30.thread;
+package feb_03;
 
 public class ThreadDemo {
 

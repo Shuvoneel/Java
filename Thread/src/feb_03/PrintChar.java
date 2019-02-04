@@ -1,5 +1,5 @@
 
-package algorithm.chapter_30.thread;
+package feb_03;
 
 public class PrintChar implements Runnable{
     
