@@ -10,13 +10,13 @@ public class TestThree {
 
         //start second thread after waiting for 5 seconds or if it's dead
         try {
-            t1.join(5000);
+            t1.join(1500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         t2.start();
-        t2.join(5000);
+        t2.join(1500);
 
         //start third thread only when second thread is dead
         t3.start();

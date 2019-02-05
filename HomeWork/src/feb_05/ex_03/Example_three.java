@@ -6,7 +6,7 @@ class Example_three implements Runnable {
     public void run() {
         System.out.println("Thread started:::" + Thread.currentThread().getName());
         try {
-            Thread.sleep(4000);
+            Thread.sleep(500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
