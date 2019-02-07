@@ -3,10 +3,7 @@ package feb_04;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author J2EE-33
- */
+
 public class SecondWay extends Thread {
 
     int i = 0;
